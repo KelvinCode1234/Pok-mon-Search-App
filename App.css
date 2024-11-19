@@ -95,8 +95,13 @@ img#sprite {
 }
 
 @media (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+
     #search-input, #search-button {
         width: 100%;
+        margin: auto;
     }
 
     #pokemon-info {
@@ -114,5 +119,12 @@ img#sprite {
 
     #pokemon-info p {
         font-size: 16px;
+    }
+}
+
+@media (max-width: 350px) {
+    #pokemon-info {
+        padding: 15px;
+        width: 250px;
     }
 }
